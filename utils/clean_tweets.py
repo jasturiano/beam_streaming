@@ -1,5 +1,4 @@
 import apache_beam as beam
-import logging
 import re
 import datetime
 

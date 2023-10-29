@@ -36,6 +36,15 @@ python twitter_stream_simulator
 2. Run the apache Beam pipeline
 python your_script_name.py
 ```
+## Docker Integration
+
+This code also can be integrated in Docker using this:
+
+```bash
+docker build -t beam-pipeline:latest .
+
+docker run beam-pipeline:latest
+```
 
 ## TODO
 

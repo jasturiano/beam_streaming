@@ -19,4 +19,4 @@ RUN apt-get update \
 
 
 # Define the command to run when the container starts
-CMD ["python", "your_pipeline_script.py"]
+CMD ["python", "main.py"]

@@ -40,7 +40,7 @@ def run_pipeline():
                 
             )
 
-            insert_mongo = (
+            insert_mongodb = (
                 data
                 | "InsertMongoDB" >> beam.ParDo(ProcessAndStoreMessages())
 

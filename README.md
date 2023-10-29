@@ -1,4 +1,4 @@
-##Streaming Data Processing with Apache Beam
+## Streaming Data Processing with Apache Beam
 
 **Description**: This project demonstrates a streaming data processing pipeline using Apache Beam, designed to read data from a streaming endpoint, clean and aggregate data scraping latest Corona cases, and store it in a MongoDB database.
 

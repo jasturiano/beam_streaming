@@ -34,7 +34,7 @@ Running the code
 python twitter_stream_simulator
 
 2. Run the apache Beam pipeline
-python your_script_name.py
+python main.py
 
 3. Output example:
 {'_id': ObjectId('653cdb0a0410106c5682a121'), 'content': [' One morning, when # Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.He lay on his armour-like back,# and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.', ' His many# legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.', 'The bedding was hardly able to cover it and seemed ready to slide off any moment.'], 'timestamp': '2023-10-29 11:57:30', 'total_case_count': '697,073,712'}

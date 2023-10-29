@@ -28,16 +28,12 @@ The code consists of the following components:
 
 Extras: The twitter_stream_simulator.py file demonstrates a basic Flask application that simulates streaming random tweets. The app generates random tweet-like messages and streams them over HTTP when a client  makes a GET request to the /stream endpoint.
 
+Running the code
+```bash
+1. Start the Flask app
+python twitter_stream_simulator
+
+2. Run the apache Beam pipeline
 python your_script_name.py
+```
 
-Make sure to replace your_script_name.py with the actual name of your Python script.
-Error Handling
-
-The code contains a basic exception handling mechanism to catch and handle errors during data storage. You can further customize error handling to suit your requirements.
-Additional Notes
-
-    The code can be extended and customized to meet specific streaming data processing needs.
-    Logging is enabled to provide information about the pipeline's progress.
-
-This README provides an overview of the streaming data processing pipeline. Be sure to configure the MongoDB connection and other settings to align with your specific use case.
-Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT September 25 Version

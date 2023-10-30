@@ -6,7 +6,7 @@
 
 Before running the code, make sure you have the following prerequisites installed:
 
-    - Python
+    - Python 3.9
     - Apache Beam
     - MongoDB (with the required Python libraries)
 
